@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# ppp_2021_summer_backend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
 
-## Available Scripts
+여름 포트폴리오 개인작 (Personal Portfolio Project) 프론트엔드
 
-In the project directory, you can run:
+(작업중)
 
-### `yarn start`
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 개인 목표 및 구상
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+백단을 스프링 부트로 작성 및
+프론트단을 리액트로 연결
 
-### `yarn test`
+세팅 완료 하는게 목표
+그뒤 간단한 CRUD 테스트 후
+외부 API와 연동해서 아이디어를 더 생각해 본뒤 진행 예정
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 프론트 단 IDE 및 환경
 
-### `yarn build`
+VS CODE (IDE)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Travis CI - TDD](https://travis-ci.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Heroku deploy](https://www.heroku.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+"react": "^17.0.2"
 
-### `yarn eject`
+# 실행 예시
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# 작업일지
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Version History
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<table>
+<tr>
+  <th>인덱스</th>
+  <th>바뀐사항</th>
+  <th>일자</th>
+  <th>작성자</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td>파일 초기화</td>
+  <td>2021-07-25</td>
+  <td>김C</td>
+</tr>
+</table>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br />
+<hr />
+<br />
 
-## Learn More
+# reference
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Set up continuous deploy for Free with React, Github, Travis and Heroku](https://dev.to/michalhonc/set-up-continuous-deploy-for-free-with-react-github-travis-and-heroku-381b)

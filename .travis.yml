@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "14.15.4"
+
+script:
+  - npm test
+  - npm run build
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_TOKEN
+  on: main
+  all_branches: true
+  app: "ppp2021sc"
